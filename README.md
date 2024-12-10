@@ -1,22 +1,30 @@
-# Desafio 01: Criando sua primeira Landing Page com HTML e CSS
+# 🖌️ Minha Primeira Landing Page com HTML e CSS
 
-Bem vindo(a) ao primeiro desafio da Trilha de CSS da DIO! Nela, você vai construir sua primeira Landing Page com HTML e CSS, colocando em prática os fundamentos do CSS,
-as propriedades básicas da linguagem de estilização, além de trabalhar com as unidades de medidas relativas e absolutas que aprendemos ao longo da trilha.
+Este repositório contém o resultado do **Desafio 01** da Trilha de CSS da DIO. O objetivo era criar uma **Landing Page** funcional e estilizada a partir de um arquivo HTML inicial fornecido. Aqui está o que foi feito e como tudo foi implementado.
 
-[Clique aqui](https://micheleambrosio.github.io/dio-trilha-css-desafio-01/) para acessar o resultado final da Landing Page criada a partir do desafio!
+---
 
-![image](https://user-images.githubusercontent.com/55519539/183538055-6cce606c-7d1d-4d15-a4be-ffeb5b37c956.png)
+## 🌐 Resultado Final
+👉 [Acesse aqui a página publicada](https://guilherme5412.github.io/Criando-sua-Primeira-Landing-Page-com-HTML-e-CSS/)
 
-Para você realizar o desafio, basta fazer um **fork** para o seu GitHub e começar a mexer no projeto.
-Dentro da pasta *main*, você vai encontrar todas as imagens e o arquivo HTML, contendo a estrutura básica da sua página, faltando apenas
-realizar a estilização da sua página. É necessário que você faça toda a parte responsável por interligar sua página HTML com suas folhas
-de estilo para que o resultado da estilização funcione.
+---
 
-[Link do Figma](https://www.figma.com/file/3PiokoJj9IhGDnNiWAJbz7/DIO---Desafio-01?node-id=2%3A6) contendo o protótipo do desafio para
-que você possa se basear.
+## 🛠️ Como eu fiz
+### 1. Estruturação do HTML
+- Ajustei a semântica da página, utilizando `<header>`, `<main>`, `<section>`, e `<footer>`.
+- Adicionei classes e ids para facilitar a estilização no CSS.
 
-*Observações: para aplicar os textos em gradiente, utilize a propriedade CSS background-clip, porém, para funcionar em alguns navegadores,
-é necessário utilizar a propriedade -webkit-background-clip: text;*
+### 2. Organização do CSS
+- Criei um arquivo `style.css` e o conectei ao HTML.
+- Usei um arquivo `reset.css` para padronizar estilos entre navegadores.
 
-Caso tenha alguma dúvida, ou queira comparar o resultado do desafio que você fez, nós temos o site finalizado na branch *final*. Basta alterar a branch do projeto
-utilizando o comando `git checkout final` no seu terminal.
+### 3. Estilização
+- **Fontes e cores**:
+  - Defini uma paleta de cores harmoniosa.
+  - Utilize fontes customizadas do Google Fonts.
+
+# 🚀 O que aprendi
+Estilizar elementos com CSS, incluindo propriedades como margin e padding.
+Criar layouts com Flexbox.
+Aplicar textos em gradiente com background-clip e -webkit-background-clip.
+Tornar a página responsiva utilizando media queries.
